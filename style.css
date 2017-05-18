@@ -1,0 +1,116 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 55vh;
+  background: url("img/wot-masthead-dark.jpg");
+  background-image: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.mobile-nav {
+
+}
+
+.mobile-nav-link-item{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  left: 220px;
+  padding: 40px;
+}
+
+.mobile-nav-link-item {
+  margin-left: 2em;
+}
+
+.mobile-nav-links {
+  text-decoration: none;
+  color: white;
+  font-family: lato, sans-serif;
+}
+
+li a:hover {
+  border-bottom: 3px solid #BDD436;
+  padding-bottom: 2px;
+}
+
+.header {
+  font-family: oswald, sans-serif;
+  display: flex;
+  justify-content: center;
+  cursor: default;
+}
+
+.banner {
+  /*position: absolute;*/
+  margin: 40px;
+  left: 500px;
+
+}
+
+.digital {
+font-size: 40px;
+}
+
+.workshop-text{
+  font-size: 100px;
+}
+.workshop {
+  font-size: 155px;
+  padding: 0px;
+  margin: 0px;
+  line-height: 142px;
+
+}
+
+.building {
+font-size: 20px;
+text-align: center;
+padding: 10px;
+}
+.building::after{
+  content: "";
+  background-color: white;
+  width: 100px;
+  height: 7px;
+  display: inline-block;
+  margin-left: 50px;
+}
+.building::before{
+  content: "";
+  background-color: white;
+  height: 7px;
+  width: 100px;
+  display: inline-block;
+  margin-right: 50px;
+}
+#solutions {
+  color: #FF803A;
+}
+
+#ideas {
+  color: #BDD436;
+}
+
+.about {
+  color: #6A787C;
+  font-family: open sans;
+  font-size: 24px;
+  display: flex;
+  width: 1000px;
+  margin: auto;
+}
+
+.about-me {
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+}
